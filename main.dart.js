@@ -353,13 +353,11 @@ case 7:n=c
 q=new A.FP(a,n)
 s=1
 break
-s=6
 break
 case 4:p=3
 k=o
 m=A.a9(k)
 throw A.f(new A.FN(a,m))
-break
 case 3:s=2
 break
 case 6:case 1:return A.N(q,r)
@@ -7439,7 +7437,6 @@ g.toString
 q=h.Od(g)
 s=1
 break
-break
 case 5:h=$.a5()
 g=a.a
 g.toString
@@ -7460,8 +7457,7 @@ f=h.qF(g,!1,i.b,f)
 q=f
 n=[1]
 s=8
-break}finally{l.gdN().l()}s=8
-break
+break}finally{l.gdN().l()}break
 case 7:n=[2]
 case 8:p=2
 m.l()
@@ -21805,7 +21801,6 @@ $.alr.v(0,d)
 A.tB("Error: google_fonts was unable to load font "+A.h(c)+" because the following exception occurred:\n"+A.h(j))
 A.tB("If troubleshooting doesn't solve the problem, please file an issue at https://github.com/material-foundation/flutter-packages/issues/new/choose.\n")
 throw b
-break
 case 3:s=2
 break
 case 6:case 1:return A.N(q,r)
@@ -21848,7 +21843,6 @@ g=o
 m=A.a9(g)
 i=A.cl("Failed to load font with url "+b.gwI()+": "+A.h(m))
 throw A.f(i)
-break
 case 3:s=2
 break
 case 6:if(n.b===200){k=n.w
@@ -24339,7 +24333,6 @@ m=A.d_(!1,t.y)
 q=m
 s=1
 break
-break
 case 3:s=2
 break
 case 6:q=A.d_(!0,t.y)
@@ -24407,7 +24400,6 @@ case 7:n.unlock()
 q=!0
 s=1
 break
-break
 case 9:m=A.aAj(A.cz(l.gR(a)))
 s=m!=null?10:11
 break
@@ -24417,14 +24409,12 @@ return A.T(A.mh(n.lock(m),t.z),$async$rY)
 case 16:q=!0
 s=1
 break
-s=15
 break
 case 13:p=12
 i=o
 l=A.d_(!1,t.y)
 q=l
 s=1
-break
 break
 case 12:s=2
 break
@@ -31309,7 +31299,6 @@ case 7:l=e
 q=l
 s=1
 break
-s=6
 break
 case 4:p=3
 j=o
@@ -31317,7 +31306,6 @@ m=A.a9(j)
 $.oM().$1('Error while loading font family "'+a+'":\n'+A.h(m))
 l=A.axW(b,m)
 throw A.f(l)
-break
 case 3:s=2
 break
 case 6:case 1:return A.N(q,r)
@@ -38438,7 +38426,7 @@ r=s==null?null:s.content
 s=r==null
 if(!s)self.window.console.warn("The `assetBase` meta tag is now deprecated.\nUse engineInitializer.initializeEngine(config) instead.\nSee: https://docs.flutter.dev/development/platform-integration/web/initialization")
 q=this.b=s?"":r
-s=q}return A.R3(B.iS,s+"web-presentation/assets/"+a,B.ac,!1)}}
+s=q}return A.R3(B.iS,s+"web_presentation/assets/"+a,B.ac,!1)}}
 A.ug.prototype={
 H(){return"BrowserEngine."+this.b}}
 A.jt.prototype={
@@ -38790,7 +38778,6 @@ g=p
 m=A.a9(g)
 l=A.ao(g)
 throw g
-s=4
 break
 case 2:o=[1]
 case 4:q=1
@@ -49269,7 +49256,6 @@ if(A.a9(k) instanceof A.mU){m=$.lc.nH$
 m===$&&A.a()
 m.a7u(a)
 throw k}else throw k
-break
 case 3:s=2
 break
 case 6:q=b.$1(l)
@@ -49490,7 +49476,6 @@ m=A.a9(i)
 l=A.ao(i)
 n.wt(A.b6("resolving an image frame"),m,n.at,!0,l)
 s=1
-break
 break
 case 3:s=2
 break
@@ -58328,7 +58313,6 @@ case 7:k=e.qq(d)
 q=k
 s=1
 break
-s=6
 break
 case 4:p=3
 f=o
@@ -58344,8 +58328,7 @@ break}else{l=k
 h=h.Nb("error",J.eA(l))
 q=h
 s=1
-break}break
-case 3:s=2
+break}case 3:s=2
 break
 case 6:case 1:return A.N(q,r)
 case 2:return A.M(o,r)}})
@@ -58786,7 +58769,6 @@ case 7:k=c
 q=k
 s=1
 break
-s=6
 break
 case 4:p=3
 i=o
@@ -58795,7 +58777,6 @@ l=A.ao(i)
 k=A.b6("during method call "+a.a)
 A.cD(new A.bm(m,l,"services library",k,new A.a82(a),!1))
 throw i
-break
 case 3:s=2
 break
 case 6:case 1:return A.N(q,r)
@@ -71018,7 +70999,6 @@ m=A.avR(n)
 q=m
 s=1
 break
-s=6
 break
 case 4:p=3
 k=o
@@ -71027,7 +71007,6 @@ m.a.v(0,"AssetManifest.json")
 m.b.v(0,"AssetManifest.json")
 m.c.v(0,"AssetManifest.json")
 throw k
-break
 case 3:s=2
 break
 case 6:case 1:return A.N(q,r)
@@ -71116,7 +71095,6 @@ q=h
 n=[1]
 s=5
 break
-s=5
 break
 case 4:n=[2]
 case 5:p=2

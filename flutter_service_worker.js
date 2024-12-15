@@ -65,7 +65,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "174b3af6852796cc2288fe01cc8de8df
 "assets/assets/images/projects/weather_2.png": "f04ea66728419b5f1e9fc38501c6c90f",
 "assets/assets/images/projects/weather_3.png": "551881e79f9766e8beda097d4c353900",
 "assets/assets/images/projects/weather_4.png": "790aac227c6addfd857c88c6421e3162",
-"web-presentation/assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
+"web_presentation/assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "99a9d6b4529271c35edac9791431f7ff",
 "assets/NOTICES": "dd1f3d71616e70941339d6f03aeea25d",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "e986ebe42ef785b27164c36a9abc7818",
