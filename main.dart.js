@@ -353,14 +353,12 @@ case 7:n=c
 q=new A.FP(a,n)
 s=1
 break
-p=2
 s=6
 break
 case 4:p=3
 k=o
 m=A.a9(k)
 throw A.f(new A.FN(a,m))
-s=6
 break
 case 3:s=2
 break
@@ -6291,7 +6289,7 @@ throw A.f(A.bC("Invalid double",a,null))},
 axH(a,b){a=A.f(a)
 a.stack=b.j(0)
 throw a
-throw A.f("unreachable")},
+},
 bk(a,b,c,d){var s,r=c?J.w_(a,d):J.G1(a,d)
 if(a!==0&&b!=null)for(s=0;s<r.length;++s)r[s]=b
 return r},
@@ -7441,7 +7439,6 @@ g.toString
 q=h.Od(g)
 s=1
 break
-s=4
 break
 case 5:h=$.a5()
 g=a.a
@@ -7463,8 +7460,7 @@ f=h.qF(g,!1,i.b,f)
 q=f
 n=[1]
 s=8
-break}finally{l.gdN().l()}n.push(9)
-s=8
+break}finally{l.gdN().l()}s=8
 break
 case 7:n=[2]
 case 8:p=2
@@ -17954,7 +17950,7 @@ r=typeof r=="number"}else r=!1
 if(r){r=new A.k4(p?s:b)
 break $label0$0}r=a
 break $label0$0
-r=null}return r},
+}return r},
 q3(a,b,c,d,e,f,g){return new A.q4(d,g,c,e,f,a,b,null)},
 l6(a,b,c,d,e){return new A.wy(c,e,d,b,a,null)},
 YU(a,b,c){return new A.pN(b,a,c)},
@@ -21809,7 +21805,6 @@ $.alr.v(0,d)
 A.tB("Error: google_fonts was unable to load font "+A.h(c)+" because the following exception occurred:\n"+A.h(j))
 A.tB("If troubleshooting doesn't solve the problem, please file an issue at https://github.com/material-foundation/flutter-packages/issues/new/choose.\n")
 throw b
-s=6
 break
 case 3:s=2
 break
@@ -21853,7 +21848,6 @@ g=o
 m=A.a9(g)
 i=A.cl("Failed to load font with url "+b.gwI()+": "+A.h(m))
 throw A.f(i)
-s=6
 break
 case 3:s=2
 break
@@ -24345,7 +24339,6 @@ m=A.d_(!1,t.y)
 q=m
 s=1
 break
-s=6
 break
 case 3:s=2
 break
@@ -24414,7 +24407,6 @@ case 7:n.unlock()
 q=!0
 s=1
 break
-s=8
 break
 case 9:m=A.aAj(A.cz(l.gR(a)))
 s=m!=null?10:11
@@ -24425,7 +24417,6 @@ return A.T(A.mh(n.lock(m),t.z),$async$rY)
 case 16:q=!0
 s=1
 break
-p=2
 s=15
 break
 case 13:p=12
@@ -24434,7 +24425,6 @@ l=A.d_(!1,t.y)
 q=l
 s=1
 break
-s=15
 break
 case 12:s=2
 break
@@ -31319,7 +31309,6 @@ case 7:l=e
 q=l
 s=1
 break
-p=2
 s=6
 break
 case 4:p=3
@@ -31328,7 +31317,6 @@ m=A.a9(j)
 $.oM().$1('Error while loading font family "'+a+'":\n'+A.h(m))
 l=A.axW(b,m)
 throw A.f(l)
-s=6
 break
 case 3:s=2
 break
@@ -35216,7 +35204,7 @@ p=o.e
 if(p==null||p.length===0){o.b=null
 o.a=A.aqX
 throw n
-return!1}o.a=p.pop()
+}o.a=p.pop()
 m=1
 continue}throw A.f(A.ar("sync*"))}return!1},
 acB(a){var s,r,q=this
@@ -38450,7 +38438,7 @@ r=s==null?null:s.content
 s=r==null
 if(!s)self.window.console.warn("The `assetBase` meta tag is now deprecated.\nUse engineInitializer.initializeEngine(config) instead.\nSee: https://docs.flutter.dev/development/platform-integration/web/initialization")
 q=this.b=s?"":r
-s=q}return A.R3(B.iS,s+"assets/"+a,B.ac,!1)}}
+s=q}return A.R3(B.iS,s+"web-presentation/assets/"+a,B.ac,!1)}}
 A.ug.prototype={
 H(){return"BrowserEngine."+this.b}}
 A.jt.prototype={
@@ -38802,7 +38790,6 @@ g=p
 m=A.a9(g)
 l=A.ao(g)
 throw g
-o.push(5)
 s=4
 break
 case 2:o=[1]
@@ -49282,7 +49269,6 @@ if(A.a9(k) instanceof A.mU){m=$.lc.nH$
 m===$&&A.a()
 m.a7u(a)
 throw k}else throw k
-s=6
 break
 case 3:s=2
 break
@@ -49505,7 +49491,6 @@ l=A.ao(i)
 n.wt(A.b6("resolving an image frame"),m,n.at,!0,l)
 s=1
 break
-s=6
 break
 case 3:s=2
 break
@@ -51276,7 +51261,7 @@ g=f
 j=new A.E(0,g+A.bz(h))
 q=j
 break $label0$1
-q=a}m=A.aBF(m,q)
+}m=A.aBF(m,q)
 e=b.M
 $label1$2:{d=B.t===e
 if(d&&a1){q=a0
@@ -58343,7 +58328,6 @@ case 7:k=e.qq(d)
 q=k
 s=1
 break
-p=2
 s=6
 break
 case 4:p=3
@@ -58360,8 +58344,7 @@ break}else{l=k
 h=h.Nb("error",J.eA(l))
 q=h
 s=1
-break}s=6
-break
+break}break
 case 3:s=2
 break
 case 6:case 1:return A.N(q,r)
@@ -58803,7 +58786,6 @@ case 7:k=c
 q=k
 s=1
 break
-p=2
 s=6
 break
 case 4:p=3
@@ -58813,7 +58795,6 @@ l=A.ao(i)
 k=A.b6("during method call "+a.a)
 A.cD(new A.bm(m,l,"services library",k,new A.a82(a),!1))
 throw i
-s=6
 break
 case 3:s=2
 break
@@ -71037,7 +71018,6 @@ m=A.avR(n)
 q=m
 s=1
 break
-p=2
 s=6
 break
 case 4:p=3
@@ -71047,7 +71027,6 @@ m.a.v(0,"AssetManifest.json")
 m.b.v(0,"AssetManifest.json")
 m.c.v(0,"AssetManifest.json")
 throw k
-s=6
 break
 case 3:s=2
 break
@@ -71137,7 +71116,6 @@ q=h
 n=[1]
 s=5
 break
-n.push(6)
 s=5
 break
 case 4:n=[2]
