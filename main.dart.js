@@ -357,12 +357,10 @@ case 9:k=c
 q=k
 s=1
 break
-s=8
 break
 case 6:p=5
 i=o
 s=3
-break
 break
 case 5:s=2
 break
@@ -677,13 +675,11 @@ case 7:n=c
 q=new A.FG(a,n)
 s=1
 break
-s=6
 break
 case 4:p=3
 k=o
 m=A.ab(k)
 throw A.f(new A.FE(a,m))
-break
 case 3:s=2
 break
 case 6:case 1:return A.L(q,r)
@@ -6479,7 +6475,6 @@ g.toString
 q=h.Ml(g)
 s=1
 break
-break
 case 5:h=$.a6()
 g=a.a
 g.toString
@@ -6500,8 +6495,7 @@ f=h.pZ(g,!1,i.b,f)
 q=f
 n=[1]
 s=8
-break}finally{l.gdr().l()}s=8
-break
+break}finally{l.gdr().l()}break
 case 7:n=[2]
 case 8:p=2
 m.l()
@@ -20841,7 +20835,6 @@ $.akD.v(0,d)
 A.to("Error: google_fonts was unable to load font "+A.l(c)+" because the following exception occurred:\n"+A.l(j))
 A.to("If troubleshooting doesn't solve the problem, please file an issue at https://github.com/material-foundation/flutter-packages/issues/new/choose.\n")
 throw b
-break
 case 3:s=2
 break
 case 6:case 1:return A.L(q,r)
@@ -20884,7 +20877,6 @@ g=o
 m=A.ab(g)
 i=A.d5("Failed to load font with url "+b.gvU()+": "+A.l(m))
 throw A.f(i)
-break
 case 3:s=2
 break
 case 6:if(n.b===200){k=n.w
@@ -23416,7 +23408,6 @@ $.d0().$1(J.dU(l))
 q=new A.mF(a,null,new A.Fj())
 s=1
 break
-break
 case 3:s=2
 break
 case 6:n.a.D(0,c)
@@ -24893,7 +24884,6 @@ m=A.cn(!1,t.y)
 q=m
 s=1
 break
-break
 case 3:s=2
 break
 case 6:q=A.cn(!0,t.y)
@@ -24977,7 +24967,6 @@ case 7:n.unlock()
 q=!0
 s=1
 break
-break
 case 9:m=A.azm(A.cx(l.gV(a)))
 s=m!=null?10:11
 break
@@ -24987,14 +24976,12 @@ return A.H(A.fu(n.lock(m),t.z),$async$r9)
 case 16:q=!0
 s=1
 break
-s=15
 break
 case 13:p=12
 i=o
 l=A.cn(!1,t.y)
 q=l
 s=1
-break
 break
 case 12:s=2
 break
@@ -25274,7 +25261,6 @@ $.d0().$1("Failed to load font "+k.a+" at "+A.dr().gAO()+j)
 $.d0().$1(J.dU(l))
 s=1
 break
-break
 case 3:s=2
 break
 case 6:n.a.b.D(0,n.b)
@@ -25372,7 +25358,6 @@ j.sA0(new A.f5(Date.now(),0,!1).wI($.aqG.a))
 q=m
 s=1
 break
-s=6
 break
 case 4:p=3
 f=o
@@ -25380,7 +25365,6 @@ k=A.ab(f)
 g=globalThis.DOMException
 if(g!=null&&k instanceof g)if(t.e.a(k).name==="NotSupportedError")throw A.f(A.pG("Image file format ("+n.a+") is not supported by this browser's ImageDecoder API.\nImage source: "+n.c))
 throw A.f(A.pG("Failed to decode image using the browser's ImageDecoder API.\nImage source: "+n.c+"\nOriginal browser error: "+A.l(k)))
-break
 case 3:s=2
 break
 case 6:case 1:return A.L(q,r)
@@ -34461,7 +34445,7 @@ r=s==null?null:s.content
 s=r==null
 if(!s)self.window.console.warn("The `assetBase` meta tag is now deprecated.\nUse engineInitializer.initializeEngine(config) instead.\nSee: https://docs.flutter.dev/development/platform-integration/web/initialization")
 q=this.b=s?"":r
-s=q}return A.QB(B.hV,s+"assets/assets/"+a,B.a3,!1)}}
+s=q}return A.QB(B.hV,s+"assets/"+a,B.a3,!1)}}
 A.u5.prototype={
 I(){return"BrowserEngine."+this.b}}
 A.jm.prototype={
@@ -34813,7 +34797,6 @@ g=p
 m=A.ab(g)
 l=A.as(g)
 throw g
-s=4
 break
 case 2:o=[1]
 case 4:q=1
@@ -45292,7 +45275,6 @@ if(A.ab(k) instanceof A.mD){m=$.l1.n6$
 m===$&&A.b()
 m.a4Z(a)
 throw k}else throw k
-break
 case 3:s=2
 break
 case 6:q=b.$1(l)
@@ -45513,7 +45495,6 @@ m=A.ab(i)
 l=A.as(i)
 n.vF(A.b8("resolving an image frame"),m,n.at,!0,l)
 s=1
-break
 break
 case 3:s=2
 break
@@ -54351,7 +54332,6 @@ case 7:k=e.pJ(d)
 q=k
 s=1
 break
-s=6
 break
 case 4:p=3
 f=o
@@ -54367,8 +54347,7 @@ break}else{l=k
 h=h.Lr("error",J.dU(l))
 q=h
 s=1
-break}break
-case 3:s=2
+break}case 3:s=2
 break
 case 6:case 1:return A.L(q,r)
 case 2:return A.K(o,r)}})
@@ -54809,7 +54788,6 @@ case 7:k=c
 q=k
 s=1
 break
-s=6
 break
 case 4:p=3
 i=o
@@ -54818,7 +54796,6 @@ l=A.as(i)
 k=A.b8("during method call "+a.a)
 A.cA(new A.bp(m,l,"services library",k,new A.a7h(a),!1))
 throw i
-break
 case 3:s=2
 break
 case 6:case 1:return A.L(q,r)
@@ -67041,7 +67018,6 @@ m=A.auY(n)
 q=m
 s=1
 break
-s=6
 break
 case 4:p=3
 k=o
@@ -67050,7 +67026,6 @@ m.a.v(0,"AssetManifest.json")
 m.b.v(0,"AssetManifest.json")
 m.c.v(0,"AssetManifest.json")
 throw k
-break
 case 3:s=2
 break
 case 6:case 1:return A.L(q,r)
@@ -67139,7 +67114,6 @@ q=h
 n=[1]
 s=5
 break
-s=5
 break
 case 4:n=[2]
 case 5:p=2
